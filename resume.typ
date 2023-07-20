@@ -12,4 +12,6 @@
 	]
 )
 
+= Education
 
+#entry()[Winona State University][Computer Science B.S.][Studying for Bachelor's of Computer Science at Winona State University.]

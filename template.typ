@@ -13,7 +13,7 @@
   set par(justify: true)
 
   {
-    show heading.where(level: 1): set text(size: 40pt)
+    show heading.where(level: 1): set text(size: 35pt)
     show heading.where(level: 2): set text(size: 18pt)
     box(
       fill: accent_color,
