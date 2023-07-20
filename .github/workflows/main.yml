@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  generate_pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v22
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: nix build
+
+      - name: make a release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: resume-latest
+          files: result/resume.pdf
+permissions:
+  contents: write
