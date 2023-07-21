@@ -1,12 +1,21 @@
-//TEMPLATE FROM: https://github.com/elegaanz/vercanard/tree/main
-#let entry(title, body, details) = [
-    #heading(level: 2, title)
+#let entry(title, subtitle, body, details) = [
+    #pad(x: 0pt, top: 4pt, heading(level: 2, title))
+    #pad(x: 0pt, top: 0pt, bottom: 6pt, heading(level: 3, subtitle))
     #body
 
     #text(fill: gray, details)
 ]
+#let code_entry(title, body) = [
+    #pad(x: 0pt, top: 0pt, bottom: 4pt, heading(level: 3, title))
+    #text(fill: black, body)
+]
 
-#let resume(name: "", title: "", accent_color: rgb("db9df8"), margin: 100pt, aside: [], body) = {
+#let proj(title, body) = [
+  #pad(x: 0pt, top: 4pt, bottom: 2pt, heading(level: 2, title))
+  #text(fill: black, body)
+]
+
+#let resume(name: "", title: "", accent_color: rgb("f4ac04"), heading_color: rgb("db9a04"), margin: 100pt, aside: [], body) = {
   set page(margin: 0pt)
   set text(font: "Inria Sans", size: 12pt)
   set block(above: 0pt, below: 0pt)
@@ -26,7 +35,7 @@
     )
   }
 
-  show heading: set text(fill: accent_color)
+  show heading: set text(fill: heading_color)
 
   grid(
     columns: (2fr, 1fr),
