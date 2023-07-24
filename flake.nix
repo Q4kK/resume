@@ -21,8 +21,12 @@
           '';
       };
 
-    devShells.${sys}.default = pkgs.stdenv.mkDerivation {
+    devShells.${sys}.default = pkgs.mkShell {
       name = "resume_shell";
+      shellHook = ''
+      sh -c "python -m http.server 2>&1" > /dev/null&
+      typst watch resume.typ
+      '';
       buildInputs = [
         pkgs.typst
       ];
