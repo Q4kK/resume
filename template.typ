@@ -5,9 +5,10 @@
 
     #text(fill: gray, details)
 ]
+
 #let code_entry(title, body) = [
     #pad(x: 0pt, top: 0pt, bottom: 4pt, heading(level: 3, title))
-    #text(fill: black, body)
+    #pad(bottom: 6pt, body)
 ]
 
 #let proj(title, body) = [
@@ -15,7 +16,7 @@
   #text(fill: black, body)
 ]
 
-#let resume(name: "", title: "", accent_color: rgb("f4ac04"), heading_color: rgb("db9a04"), margin: 100pt, aside: [], body) = {
+#let resume(name: "", title: "", accent_color: rgb("f4ac04"), heading_color: rgb("007773"), margin: 100pt, aside: [], body) = {
   set page(margin: 0pt)
   set text(font: "Inria Sans", size: 12pt)
   set block(above: 0pt, below: 0pt)
