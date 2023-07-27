@@ -15,19 +15,54 @@
 
 = Education
 
-#entry()[Winona State University][Computer Science][Studying for Bachelor's of Computer Science at Winona State University.][2022-Present]
-#entry()[Robbinsdale Armstrong High School][High School Diploma][Graduated with Honors from Robbinsdale Armstrong High School in 2022.][2018-2022]
+#entry()[
+	Winona State University
+][
+	Computer Science
+][
+	Studying for Bachelor's of Computer Science at Winona State University.
+][
+	2022-Present
+]
+#entry()[
+	Robbinsdale Armstrong High School
+][
+	High School Diploma
+][
+	Graduated with Honors from Robbinsdale Armstrong High School in 2022.
+][
+	2018-2022
+]
 
 = Experience
 
-#entry()[Student Systems Administrator][Winona State University][-- Strong grasp of Linux and Windows machines \ -- Worked extensively with Virtual Machines][2023-Present]
+#entry()[
+	Student Systems Administrator
+][
+	Winona State University
+][
+	-- Strong grasp of Linux and Windows machines \ -- Worked extensively with Virtual Machines \ -- Proficient in using computer systems to a high degree
+][
+	2023-Present
+]
+#entry()[
+	Automotive Technician
+][
+	Walmart, Winona
+][
+	 -- Customer oriented job based around fufilling job requests and providing correct service and feedback \ -- Performed essential cleaning duties like sweeping, mopping, and saftey checks on the shop floor \ -- Helped with management duties such as using work computer to study, order, and document parts and tires \ -- Worked with management in order to acheive success
+][
+	2022-2023
+]
 
-#code_entry()[Rust][Even though I only have one year's experience, Rust is my go-to language for scripting.]
-#code_entry()[Python][Fluent enough to get the job done. This was the scripting language of choice for my student work at WSU, but I definitely prefer other languages to this.]
-#code_entry()[Java][I am proficient in Java, as it is my College's language of choice for the Computer Science program. I prefer python as an OOP program, but I can use Java just fine.]
+#code_entry()[
+	Computer Systems
+][
+	Highly proficient; I have been working with computers for practically my entire life. I know a lot about them, and am pursuing more knowledge about computers every day.
+]
 
-= Projects
-
-#proj()[#link("https://github.com/Q4kK/BETA_H.E.L.M.E.T")[H.E.L.M.E.T]][HELMET is a chrome extension I made in order to condense news sources for Destiny 2. I built this as a project to learn about web development, web requests, and APIs. My biggest acheivement with this project is my custom API requests to my home server in order to grab other API keys.]
-#proj()[#link("gitea.halferr.com")[Halferr.com]][My home lab setup and my gitea repo. Not the most impressive thing I've ever done, but this taught me so much about networking and network security.]
-#proj()[Shmame][A funny discord reply bot coded in python. Fairly straightforward, but this taught me how to read documentation, use APIs, and gain experience with asyncronous functions.]
+#code_entry()[
+	Data Analysis / Data Entry
+][
+	Although I have no professional experience working with Data Analysis, I work with systems along these lines almost every day. I also know my way around Excel and Google Sheets.
+]
