@@ -1,9 +1,8 @@
-#import "template.typ": *
+#import "modres.typ": *
 #show link: underline
 
 #show: resume.with(
 	name: "Hamilton A. Ferris",
-	title: "",
 	accent_color: rgb("58c48a"),
 	aside: [
 		= Contact
@@ -81,7 +80,3 @@
 // 	][
 // 	A funny discord reply bot coded in python. Fairly straightforward, but this taught me how to read documentation, use APIs, and gain experience with asyncronous functions.
 // 	]
-
-#pagebreak()
-
-= Test
