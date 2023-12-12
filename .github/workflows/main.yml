@@ -15,7 +15,7 @@ jobs:
       - name: make a release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: resume-latest
+          tag_name: ${{github.sha}}-latest
           files: result/resume.pdf
 permissions:
   contents: write
