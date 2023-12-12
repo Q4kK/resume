@@ -11,11 +11,17 @@ jobs:
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
       - run: nix build
-
+      - name: delete old release
+        uses: liudonghua123/delete-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          supress_errors: true
+          release_name: 'resume-latest'
       - name: make a release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{github.sha}}-latest
+          tag_name: resume-latest
           files: result/resume.pdf
 permissions:
   contents: write
