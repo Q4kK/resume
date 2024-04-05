@@ -2,7 +2,7 @@
 #show link: underline
 
 #show: resume.with(
-	name: "Hamilton A. Ferris",
+	name: "Hamilton Ferris",
 	accent_color: rgb("58c48a"),
 	aside: [
 		= Contact
@@ -13,8 +13,7 @@
 )
 
 = About Me
-
-#bio()[I am a hard-working individual with a large interest in computer systems, unix development, and game design. I enjoy learning about new things related to game engines, cybersecurity, and unix news (Specifically NixOS!)
+#bio()[I am a hard-working individual with a large interest in computer systems, Linux / NixOS development, and game design. I enjoy learning about new things related to game engines, cybersecurity, and NixOS!
 	][
 	In my free time, I enjoy walking around my town, gardening, designing game ideas, cooking, and programming my personal api servicing my home lab.
 	][
@@ -45,11 +44,6 @@
 	2023-Present
 	]
 
-#code_entry()[
-	Rust
-	][
-	Even without much low-level experience, working in rust is my go-to low-level scripting language.
-	]
 #code_entry()[
 	Python
 	][
