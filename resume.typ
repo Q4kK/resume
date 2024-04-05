@@ -60,4 +60,3 @@
 	][
 	I am proficient in Java, as it is my college's language of choice for the Computer Science program. Most of my fundamental programming skills were developed in Java, so I'm very comfortable floating around this language.
 	]
-
