@@ -1,4 +1,4 @@
-#import "modres.typ": *
+#import "template.typ": *
 #show link: underline
 
 #show: resume.with(
@@ -12,71 +12,52 @@
 	]
 )
 
-// = Education
+= About Me
 
-// #entry()[
-// 	Winona State University
-// 	][
-// 	Computer Science
-// 	][
-// 	Studying for Bachelor's of Computer Science at Winona State University.
-// 	][
-// 	2022-Present
-// 	]
-// #entry()[
-// 	Robbinsdale Armstrong High School
-// 	][
-// 	High School Diploma
-// 	][
-// 	Graduated with Honors from Robbinsdale Armstrong High School in 2022.
-// 	][
-// 	2018-2022
-// 	]
+#bio()[I am a hard-working individual with a large interest in computer systems, unix development, and game design. I enjoy learning about new things related to game engines, cybersecurity, and unix news (Specifically NixOS!)
+	][
+	In my free time, I enjoy walking around my town, gardening, designing game ideas, cooking, and programming my personal api servicing my home lab.
+	][
+	I have volunteered at Holy Nativity Lutheran Church, both doing service to my hometown but also taking on mission trips to Eau Claire, Wisconsin and Houstan, Texas to help those in need.
+	]
 
-// = Experience
+= Education
 
-// #entry()[
-// 	Student Systems Administrator
-// 	][
-// 	Winona State University
-// 	][
-// 	-- Strong grasp of Linux and Windows machines \ -- Worked extensively with Virtual Machines
-// 	][
-// 	2023-Present
-// 	]
+#entry()[
+	Winona State University
+	][
+	Computer Science
+	][
+	Studying for Bachelor's of Computer Science at Winona State University.
+	][
+	2022-Present
+	]
 
-// #code_entry()[
-// 	Rust
-// 	][
-// 	Even though I only have one year's experience, Rust is my go-to language for scripting.
-// 	]
-// #code_entry()[
-// 	Python
-// 	][
-// 	Fluent enough to get the job done. This was the scripting language of choice for my student work at WSU, but I definitely prefer other languages to this.
-// 	]
-// #code_entry()[
-// 	Java
-// 	][
-// 	I am proficient in Java, as it is my College's language of choice for the Computer Science program. I prefer python as an OOP program, but I can use Java just fine.
-// 	]
+= Experience
 
-// = Projects
+#entry()[
+	Student Systems Administrator
+	][
+	Winona State University
+	][
+	-- Strong grasp of Linux systems. \ -- Worked extensively with virtual machines and server hardware. \ -- Experience creating automation, solutions, and deployments using Ansible. \
+	][
+	2023-Present
+	]
 
-// #proj()[
-// 	#link("https://github.com/Q4kK/BETA_H.E.L.M.E.T")[
-// 	H.E.L.M.E.T
-// 	]][
-// 	HELMET is a chrome extension I made in order to condense news sources for Destiny 2. I built this as a project to learn about web development, web requests, and APIs. My biggest acheivement with this project is my custom API requests to my home server in order to grab other API keys.
-// 	]
-// #proj()[
-// 	#link("gitea.halferr.com")[
-// 	Halferr.com
-// 	]][
-// 	My home lab setup and my gitea repo. Not the most impressive thing I've ever done, but this taught me so much about networking and network security.
-// 	]
-// #proj()[
-// 	Shmame
-// 	][
-// 	A funny discord reply bot coded in python. Fairly straightforward, but this taught me how to read documentation, use APIs, and gain experience with asyncronous functions.
-// 	]
+#code_entry()[
+	Rust
+	][
+	Even without much low-level experience, working in rust is my go-to low-level scripting language.
+	]
+#code_entry()[
+	Python
+	][
+	Fluent enough to get the job done. I have experience using python to control windows services, powershell scripts, and JSON api requests.
+	]
+#code_entry()[
+	Java
+	][
+	I am proficient in Java, as it is my college's language of choice for the Computer Science program. Most of my fundamental programming skills were developed in Java, so I'm very comfortable floating around this language.
+	]
+

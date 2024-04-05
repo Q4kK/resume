@@ -6,6 +6,12 @@
     #text(fill: gray, details)
 ]
 
+#let bio(about, hobbies, volunteer) = [
+  #pad(x: 0pt, top: 0pt, bottom: 2pt, about)
+  #pad(x: 0pt, top: 0pt, bottom: 2pt, hobbies)
+  #volunteer
+]
+
 #let code_entry(title, body) = [
     #pad(x: 0pt, top: 0pt, bottom: 4pt, heading(level: 3, title))
     #pad(bottom: 6pt, body)
