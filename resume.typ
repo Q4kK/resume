@@ -2,9 +2,8 @@
 #show link: underline
 
 #show: resume.with(
-	name: "Hamilton Ferris",
-	accent_color: rgb("58c48a"),
 	aside: [
+		= #text(fill: black, underline[Hamilton Ferris])
 		= Contact
 		- #link("mailto:hamiltonaferris@gmail.com")
 		- +1 612-391-3470
@@ -17,7 +16,6 @@
 	][
 	In my free time, I enjoy walking around my town, gardening, designing game ideas, cooking, and programming my personal api servicing my home lab.
 	][
-	I have volunteered at Holy Nativity Lutheran Church, both doing service to my hometown but also taking on mission trips to Eau Claire, Wisconsin and Houstan, Texas to help those in need.
 	]
 
 = Education
@@ -27,7 +25,7 @@
 	][
 	Computer Science
 	][
-	Studying for Bachelor's of Computer Science at Winona State University.
+	Currently studying for my Bachelor's of Computer Science at Winona State University.
 	][
 	2022-Present
 	]
@@ -39,7 +37,7 @@
 	][
 	Winona State University
 	][
-	-- Strong grasp of Linux systems. \ -- Worked extensively with virtual machines and server hardware. \ -- Experience creating automation, solutions, and deployments using Ansible. \
+	-- Strong grasp of Linux systems and Unix command line. \ -- Worked extensively with virtual machines and server hardware. \ -- Experience creating automation, solutions, and deployments using Ansible.
 	][
 	2023-Present
 	]
@@ -54,3 +52,9 @@
 	][
 	I am proficient in Java, as it is my college's language of choice for the Computer Science program. Most of my fundamental programming skills were developed in Java, so I'm very comfortable floating around this language.
 	]
+#code_entry()[
+	#link("https://github.com/Q4kK/resume")[This Resume]
+	][
+	This resume was built using typst, github actions, and a healthy dose of the command line.
+	]
+

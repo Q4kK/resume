@@ -13,7 +13,7 @@
 ]
 
 #let code_entry(title, body) = [
-    #pad(x: 0pt, top: 0pt, bottom: 4pt, heading(level: 3, title))
+    #pad(x: 0pt, top: 2pt, heading(level: 3, title))
     #pad(bottom: 6pt, body)
 ]
 
@@ -22,27 +22,16 @@
   #text(fill: black, body)
 ]
 
-#let resume(name: "", title: "", accent_color: rgb("f4ac04"), heading_color: rgb("007773"), margin: 100pt, aside: [], body) = {
+#let resume(accent_color: rgb("05f589"),heading_color: rgb("05f589"), margin: 100pt, aside: [], body) = {
   set page(margin: 0pt)
-  set text(font: "Inria Sans", size: 12pt)
+  set text(size: 12pt)
   set block(above: 0pt, below: 0pt)
   set par(justify: true)
-
+  show heading: set text(fill: heading_color.darken(50%))
   {
     show heading.where(level: 1): set text(size: 35pt)
     show heading.where(level: 2): set text(size: 18pt)
-    box(
-      fill: accent_color,
-      width: 100%,
-      outset: 0pt,
-      inset: (rest: margin, bottom: 0.4 * margin),
-      stack(
-        spacing: 10pt,
-        heading(level: 1, upper(name)), heading(level: 2, upper(title)))
-    )
   }
-
-  show heading: set text(fill: heading_color)
 
   grid(
     columns: (2fr, 1fr),
@@ -56,7 +45,7 @@
         body
     }),
     box(
-      fill: accent_color.lighten(80%),
+      fill: accent_color.lighten(40%),
       outset: 0pt,
       inset: (0.4 * margin),
       height: 100%,
