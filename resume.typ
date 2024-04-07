@@ -3,7 +3,7 @@
 
 #show: resume.with(
 	aside: [
-		= #text(fill: black, underline[Hamilton Ferris])
+		#text(size: 20pt, fill: black, weight: "bold", "Hamilton Ferris")
 		= Contact
 		- #link("mailto:hamiltonaferris@gmail.com")
 		- +1 612-391-3470

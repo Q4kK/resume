@@ -55,7 +55,7 @@
         show heading: it => align(right, upper(it))
         set list(marker: "")
         show list: it => {
-          set par(justify: false)
+          set par(justify: true)
           align(right, it)
         }
         aside
